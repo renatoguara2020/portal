@@ -1,0 +1,93 @@
+body,
+html{
+	background: #60a3bc;
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+.card_login{
+	height:400px;
+	width:350px;
+	margin-bottom:auto;
+	margin-top:auto;
+	background:#f39c12;
+	position: relative;
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 8px;
+
+}
+
+.area_logo{
+	position: absolute;
+	height:170px;
+	width:170px;
+	border-radius:50%;
+	background:#60a3bc;
+	padding:10px;
+	text-align:center;
+	top:-75px;
+}
+
+.logo_circular{
+	height:150px;
+	width:150px;
+	border-radius:50%;
+	border:2px solid white;
+}
+
+
+.form_login{
+	margin-top:100px;
+
+}
+
+.input_usuario{
+	outline: 0px;
+}
+
+.input-group-text{
+	background:#C0392b;
+	color:white;
+	border:0;
+	border-radius:0.25rem 0 0 0.25rem;
+}
+
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+	background-color: #C0392b;
+}
+
+
+.area_botao{
+	padding:0 2rem;
+}
+
+.btn_login{
+	width:100%;
+	background:#C0392b;
+	color:white;
+}
+
+.btn_login:focus{
+	box-shadow:none;
+	outline:0px;
+}
+
+.btn_login:hover{
+	background:#ab3326;
+}
+
+.area_links{
+	font-size:14px;
+}
+
+.area_links a{
+	color:#191970;
+}
+
